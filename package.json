@@ -1,0 +1,26 @@
+{
+  "name": "hello-jenkins",
+  "version": "1.0.0",
+  "description": "'starting out with jenkins continuous integration'",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahand12/hello-jenkins.git"
+  },
+  "author": "sahand shokouhi <sahand.shok@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahand12/hello-jenkins/issues"
+  },
+  "homepage": "https://github.com/sahand12/hello-jenkins#readme",
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
